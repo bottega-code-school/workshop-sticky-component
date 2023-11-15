@@ -1,7 +1,7 @@
 import * as React from "react";
 
 interface FixedScrollingWidgetProps {
-  threshold: number; // The scroll position in pixels where the widget becomes fixed
+  threshold: number;
   children: React.ReactNode;
   containerClassName?: string;
   top?: number;

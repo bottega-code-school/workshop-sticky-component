@@ -37,7 +37,7 @@ form {
 }
 
 .fixed-scrolling-widget {
-  box-shadow: var(--shadow);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
   border-radius: 1em;
   right: 0;
   background-color: var(--highlight);
@@ -152,7 +152,7 @@ button {
   }
 
   &__content {
-    width: 1200px;
+    width: calc(100vw - 42px);
     display: flex;
     justify-content: space-between;
 
