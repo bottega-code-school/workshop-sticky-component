@@ -36,7 +36,7 @@ form {
   gap: 15px;
 }
 
-.fixed-scrolling-widget {
+.form-container {
   box-shadow: var(--shadow);
   border-radius: 1em;
   right: 0;
@@ -48,42 +48,11 @@ form {
   width: 300px;
   min-width: 300px;
   max-width: 300px;
+  padding: 42px;
 
   button {
     width: 100%;
     padding: 10px 0px;
-  }
-}
-.fixed-scrolling-widget.fixed {
-  margin-right: 0px;
-  margin-left: 0px;
-  right: 179px;
-}
-
-.fixed-scrolling-widget .form-container {
-  padding: 42px;
-}
-
-.fixed-scrolling-widget.event-widget img {
-  width: 100%;
-  max-height: 250px;
-  object-fit: cover;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-}
-
-.event-cta {
-  &--content {
-    padding: 0px 42px 15px 42px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .cta-link {
-      padding-top: 15px;
-      color: white;
-    }
   }
 }
 
@@ -152,7 +121,7 @@ button {
   }
 
   &__content {
-    width: 1200px;
+    width: calc(100vw - 100px);
     display: flex;
     justify-content: space-between;
 

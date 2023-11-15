@@ -18,14 +18,6 @@ const NavBar = () => {
           >
             Home
           </NavLink>
-          <NavLink
-            className="nav-links--item"
-            exact
-            to="/event"
-            activeClassName="nav-links--active-item"
-          >
-            Hackathon
-          </NavLink>
         </div>
       </div>
     </div>

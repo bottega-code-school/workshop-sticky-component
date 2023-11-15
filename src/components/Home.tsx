@@ -2,7 +2,6 @@ import * as React from "react";
 import Layout from "./Layout";
 import { codeSnippets } from "./codeSnippets";
 import HighlightText from "./HighlightText";
-import FixedScrollingWidget from "./FixedScrollingWidget";
 
 export default function Home() {
   return (
@@ -67,14 +66,12 @@ export default function Home() {
           variant="text"
         />
       </div>
-      <FixedScrollingWidget threshold={190}>
-        <form className="form-container">
-          <h3>Let's get started!</h3>
-          <input type="text" placeholder="Email Address" />
-          <input type="text" placeholder="Phone number" />
-          <button>Submit</button>
-        </form>
-      </FixedScrollingWidget>
+      <form className="form-container">
+        <h3>Let's get started!</h3>
+        <input type="text" placeholder="Email Address" />
+        <input type="text" placeholder="Phone number" />
+        <button>Submit</button>
+      </form>
     </Layout>
   );
 }
