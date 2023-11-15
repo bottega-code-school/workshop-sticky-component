@@ -1,7 +1,8 @@
-# Creating a DevCamp Feature: Click to Copy Code Snippets
+# Advanced React Techniques: Building Airbnb's Sticky Reservation Widget
 
 ## Objectives
 
-- [x] Implement a render engine for embedding HTML strings in React
-- [x] Build click to copy behavior into a dedicated React component
-- [x] Manage component state to capture and update the user interface when a user copies a code snippet
+- Implement vanilla JavaScript scroll listeners to track browser actions
+- Configure multiple React useRef hooks to dynamically set styles
+- Build out CSS styles to lock a component on a page
+- Design a flexible component interface that allows for calling the sticky component behavior from other parts of the application
